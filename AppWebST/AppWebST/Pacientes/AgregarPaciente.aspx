@@ -2,4 +2,11 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="contenidoPrincipal" runat="server">
 
     <h2>Agregar Paciente</h2>
+    <h2>Agregar Paciente</h2>
+    <h2>Agregar Paciente</h2>
+    <h2>Agregar Paciente</h2>
+    <h2>Agregar Paciente</h2>
+    <h2>Agregar Paciente</h2>
+    <h2>Agregar Paciente</h2>
+    <h2>Agregar Paciente</h2>
 </asp:Content>
