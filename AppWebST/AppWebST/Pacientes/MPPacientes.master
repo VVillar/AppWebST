@@ -1,0 +1,16 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Principal.Master" AutoEventWireup="true" CodeBehind="MPPacientes.master.cs" Inherits="AppWebST.Pacientes.MPPacientes" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="contenidoMenuContextual" runat="server">
+    <ul id="MenuContextual">
+        <li><a href="AdministrarPacientes.aspx">Administrar Pacientes</a></li>
+        <li><a href="AgregarPaciente.aspx">Agregar Paciente </a></li>
+        <li><a href="VerDatosPaciente.aspx">Ver Datos del Paciente </a></li>
+    </ul>   
+
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="contenidoPrincipal" runat="server">
+    <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
