@@ -4,9 +4,11 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="contenidoMenuContextual" runat="server">
     <ul id="MenuContextual">
-        <li><a href="AdministrarPacientes.aspx">Administrar Pacientes</a></li>
-        <li><a href="AgregarPaciente.aspx">Agregar Paciente </a></li>
-        <li><a href="VerDatosPaciente.aspx">Ver Datos del Paciente </a></li>
+        <li><a href="AdministrarPacientes.aspx">Registrar seguimiento</a></li>
+        <li><a href="VerSeguimientoPaciente.aspx">Ver Seguimiento</a></li>
+        <li><a href="AgregarPaciente.aspx">Agregar/Modificar Paciente</a></li>
+        <li><a href="EliminarPaciente.aspx">Eliminar Paciente </a></li>
+        <li><a href="VerDatosPaciente.aspx">Ver Datos del Paciente</a></li>
     </ul>   
 
 </asp:Content>

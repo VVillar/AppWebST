@@ -1,126 +1,162 @@
-﻿body {
-}
-
-#cabecera {
-    height: 178px;
-    background-color: #FF7800;
+﻿#cabecera
+{
+    height: 200px;
+    background-color: #083C72;
     color: white;
     box-shadow: 0px 0px 10px #000;
     position: relative;
     z-index: 2;
 }
 
-#contenidoCabecera {
+/*La cabecera que contiene a los botones Inicio Usuario etc.*/
+#contenidoCabecera
+{
     width: 960px;
     margin: auto;
 }
 
-#barraHorizontal {
+#barraHorizontal
+{
     height: 40px;
-    background-color: #a64e06;
+    background-color: #FFC500;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 0px 0px 10px #000 inset;
     text-align: center;
 }
 
-    #barraHorizontal > ul {
+    #barraHorizontal > ul
+    {
         list-style-type: none;
         padding: 0;
         margin: 0;
     }
 
-    #barraHorizontal  li {
+    #barraHorizontal li
+    {
         display: inline-block;
-        padding: 10px; 
+        padding: 10px;
         cursor: pointer;
-        background-color: #ff9a40;
-        color: #a64e06;
+        color: white;
         box-shadow: 0px 0px 5px #000 inset;
-    }
-        #barraHorizontal  li > a {
-        display: block;
-        color: #a64e06;
-        text-decoration:none; 
-        font-weight:bold;
-
+        background-color: #ff6a00;
     }
 
-#logotipo {
+        #barraHorizontal li > a
+        {
+            display: block;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-family:Lato;
+        }
+
+/*Fin de la cabecera*/
+
+
+#logotipo
+{
     width: 35%;
     float: left;
     text-align: center;
     margin-top: 10px;
 }
 
-    #logotipo > img {
+    #logotipo > img
+    {
         box-shadow: 0px 0px 10px #000;
     }
 
-#titulo {
+#titulo
+{
     width: 60%;
     float: left;
     text-align: center;
     text-shadow: 2px 2px 3px #000;
 }
 
-    #titulo > h1 {
+    #titulo > h1
+    {
         margin-top: 12px;
     }
 
-    #titulo > h2 {
+    #titulo > h2
+    {
         margin-bottom: 0;
     }
 
-#bajo {
+#bajo
+{
     width: auto;
     margin: auto;
-    background-color: #ff9a40;
+    background-color: #083C72;
     border-radius: 0px 0px 20px 20px;
     overflow: auto;
     box-shadow: 0px 0px 10px #000;
 }
 
-#MenuContextual {
-list-style-type:none;
-padding:0;
-margin:50px 0;
+#MenuContextual
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 50px 0;
 }
 
-#MenuContextual >li {
-padding:10px;
-text-align:center;
-background-color:#a64e06;
-border:1px outset #a64e06;
-box-shadow:0px 0px 10px #000 inset;
-}
+    #MenuContextual > li
+    {
+        padding: 10px;
+        text-align: center;
+        cursor: pointer;
+        color: white;
+        box-shadow: 0px 0px 5px #000 inset;
+        background-color: #808080;
+    }
 
-#MenuContextual >li > a {
-text-decoration:none;
-color:white;
-}
+        #MenuContextual > li > a
+        {
+            display: block;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-family:Lato;
+        }
 
-#columnIzq, #ColumnDer {
+#columnIzq, columnDer
+{
     float: left;
     width: 15%;
     min-height: 500px;
-
+    background-color: #083C72;
 }
 
-#columnCentro {
+#columnCentro
+{
     float: left;
-    width: 70%;
+    width: 85%;
     min-height: 700px;
     background-color: white;
     box-shadow: 0px 0px 5px #000 inset;
 }
 
-#pie {
+#pie
+{
     height: 30px;
-    background-color: #a64e06;
+    background-color: #083C72;
     border-radius: 0px 0px 20px 20px;
     clear: both;
     box-shadow: 0px 0px 5px #000 inset;
     color: white;
     text-align: center;
     padding-top: 5px;
+}
+
+td, th
+{
+    width: 157px;
+    /*height:46px;*/
+}
+
+table
+{
+    width: 100%;
+    text-align: right;
 }

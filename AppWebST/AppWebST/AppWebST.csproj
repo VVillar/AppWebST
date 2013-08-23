@@ -63,7 +63,13 @@
     <Content Include="images\logoHospitalCayetano.jpg" />
     <Content Include="Pacientes\AdministrarPacientes.aspx" />
     <Content Include="Pacientes\AgregarPaciente.aspx" />
+    <Content Include="Pacientes\EliminarPaciente.aspx" />
     <Content Include="Pacientes\VerDatosPaciente.aspx" />
+    <Content Include="Pacientes\VerSeguimientoPaciente.aspx" />
+    <Content Include="Reportes\VerReportes.aspx" />
+    <Content Include="Usuarios\AgregarUsuario.aspx" />
+    <Content Include="Usuarios\EliminarUsuario.aspx" />
+    <Content Include="Usuarios\VerDatosUsuario.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -88,6 +94,13 @@
     <Compile Include="Pacientes\AgregarPaciente.aspx.designer.cs">
       <DependentUpon>AgregarPaciente.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pacientes\EliminarPaciente.aspx.cs">
+      <DependentUpon>EliminarPaciente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pacientes\EliminarPaciente.aspx.designer.cs">
+      <DependentUpon>EliminarPaciente.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pacientes\MPPacientes.master.cs">
       <DependentUpon>MPPacientes.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -102,6 +115,13 @@
     <Compile Include="Pacientes\VerDatosPaciente.aspx.designer.cs">
       <DependentUpon>VerDatosPaciente.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pacientes\VerSeguimientoPaciente.aspx.cs">
+      <DependentUpon>VerSeguimientoPaciente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pacientes\VerSeguimientoPaciente.aspx.designer.cs">
+      <DependentUpon>VerSeguimientoPaciente.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Principal.Master.cs">
       <DependentUpon>Principal.Master</DependentUpon>
@@ -110,10 +130,54 @@
     <Compile Include="Principal.Master.designer.cs">
       <DependentUpon>Principal.Master</DependentUpon>
     </Compile>
+    <Compile Include="Reportes\MPReportes.master.cs">
+      <DependentUpon>MPReportes.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\MPReportes.master.designer.cs">
+      <DependentUpon>MPReportes.master</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\VerReportes.aspx.cs">
+      <DependentUpon>VerReportes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\VerReportes.aspx.designer.cs">
+      <DependentUpon>VerReportes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuarios\AgregarUsuario.aspx.cs">
+      <DependentUpon>AgregarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Usuarios\AgregarUsuario.aspx.designer.cs">
+      <DependentUpon>AgregarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuarios\EliminarUsuario.aspx.cs">
+      <DependentUpon>EliminarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Usuarios\EliminarUsuario.aspx.designer.cs">
+      <DependentUpon>EliminarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuarios\MPUsuarios.master.cs">
+      <DependentUpon>MPUsuarios.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Usuarios\MPUsuarios.master.designer.cs">
+      <DependentUpon>MPUsuarios.master</DependentUpon>
+    </Compile>
+    <Compile Include="Usuarios\VerDatosUsuario.aspx.cs">
+      <DependentUpon>VerDatosUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Usuarios\VerDatosUsuario.aspx.designer.cs">
+      <DependentUpon>VerDatosUsuario.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Principal.Master" />
     <Content Include="Pacientes\MPPacientes.master" />
+    <Content Include="Usuarios\MPUsuarios.master" />
+    <Content Include="Reportes\MPReportes.master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -122,8 +186,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Equipos\" />
-    <Folder Include="Usuarios\" />
+    <Folder Include="App_Themes\Theme2\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -16,8 +16,11 @@
                 <div id="contenidoCabecera">
                     <div id="barraHorizontal">
                         <ul>
-                            <li><a href="/Default.aspx">Inicio</a></li>
-                            <li><a href="/Pacientes/AdministrarPacientes.aspx">Pacientes</a></li>
+                            <li><a class="boton" href="/Default.aspx">Inicio</a></li>
+  
+                            <li><a class="boton" href="/Pacientes/AdministrarPacientes.aspx">Pacientes</a></li>
+                            <li><a class="boton" href="/Usuarios/VerDatosUsuario.aspx">Usuarios</a></li>
+                            <li><a class="boton" href="/Reportes/VerReportes.aspx">Reportes</a></li>
                         </ul>
                     </div>
                     <div id="logotipo">
@@ -41,7 +44,7 @@
                     <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
                     </asp:ContentPlaceHolder>
                 </div>
-                <div id="ColumnDer">
+                <div id="ColumnDer" style="background-color:#083C72">
                     <div id="Publicidad">
                     </div>
                     <div id="redesSociales">
