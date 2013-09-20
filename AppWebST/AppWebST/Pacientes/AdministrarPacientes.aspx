@@ -19,7 +19,7 @@
                 </asp:TableCell>
                 <asp:TableCell HorizontalAlign="Left">
                 Fecha:<input type="date" />
-                    </asp:TableCell>
+                </asp:TableCell>
             </asp:TableRow>
         </asp:Table>
         <br />
@@ -326,7 +326,13 @@
         </asp:Table>
         <br />
         <br />
-        <asp:Button ID="Button1" runat="server" Text="Grabar" Height="38px" Width="106px" />
+        <asp:Table ID="Table4" runat="server">
+            <asp:TableRow>
+                <asp:TableCell HorizontalAlign="Center">
+                    <asp:Button ID="Button1" runat="server" Text="Grabar" Height="38px" Width="106px" />
+                </asp:TableCell>
+            </asp:TableRow>
+        </asp:Table>
         <br />
         <br />
 

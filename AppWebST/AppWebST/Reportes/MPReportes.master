@@ -2,6 +2,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="contenidoMenuContextual" runat="server">
+        <ul id="MenuContextual">
+        <li><a href="AgregarUsuario.aspx">Ver Reportes por Paciente</a></li>
+        <li><a href="EliminarUsuario.aspx">Ver Reportes del Área</a></li>
+    </ul>  
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="contenidoPrincipal" runat="server">
 </asp:Content>

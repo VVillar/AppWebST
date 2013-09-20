@@ -63,7 +63,9 @@
     <Content Include="images\logoHospitalCayetano.jpg" />
     <Content Include="Pacientes\AdministrarPacientes.aspx" />
     <Content Include="Pacientes\AgregarPaciente.aspx" />
+    <Content Include="Pacientes\DatosMadre.aspx" />
     <Content Include="Pacientes\EliminarPaciente.aspx" />
+    <Content Include="Pacientes\Epicrisis.aspx" />
     <Content Include="Pacientes\VerDatosPaciente.aspx" />
     <Content Include="Pacientes\VerSeguimientoPaciente.aspx" />
     <Content Include="Reportes\VerReportes.aspx" />
@@ -94,12 +96,26 @@
     <Compile Include="Pacientes\AgregarPaciente.aspx.designer.cs">
       <DependentUpon>AgregarPaciente.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pacientes\DatosMadre.aspx.cs">
+      <DependentUpon>DatosMadre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pacientes\DatosMadre.aspx.designer.cs">
+      <DependentUpon>DatosMadre.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pacientes\EliminarPaciente.aspx.cs">
       <DependentUpon>EliminarPaciente.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pacientes\EliminarPaciente.aspx.designer.cs">
       <DependentUpon>EliminarPaciente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pacientes\Epicrisis.aspx.cs">
+      <DependentUpon>Epicrisis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pacientes\Epicrisis.aspx.designer.cs">
+      <DependentUpon>Epicrisis.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pacientes\MPPacientes.master.cs">
       <DependentUpon>MPPacientes.master</DependentUpon>
@@ -185,9 +201,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Themes\Theme2\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
