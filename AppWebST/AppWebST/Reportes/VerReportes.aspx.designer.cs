@@ -11,7 +11,7 @@ namespace AppWebST.Reportes
 {
 
 
-    public partial class VerReportes
+    public partial class Epicricisis
     {
     }
 }

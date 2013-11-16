@@ -10,16 +10,133 @@
 namespace AppWebST.Pacientes {
     
     
-    public partial class Epicrisis {
+    public partial class Epicrisis2 {
         
         /// <summary>
-        /// ScriptManager1 control.
+        /// Tab1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.ScriptManager ScriptManager1;
+        protected global::System.Web.UI.WebControls.Button Tab1;
+        
+        /// <summary>
+        /// Tab2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Tab2;
+        
+        /// <summary>
+        /// Tab3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Tab3;
+        
+        /// <summary>
+        /// Tab4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Tab4;
+        
+        /// <summary>
+        /// Tab5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Tab5;
+        
+        /// <summary>
+        /// Tab6 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Tab6;
+        
+        /// <summary>
+        /// Tab7 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Tab7;
+        
+        /// <summary>
+        /// Tab8 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Tab8;
+        
+        /// <summary>
+        /// Tab9 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Tab9;
+        
+        /// <summary>
+        /// Tab10 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Tab10;
+        
+        /// <summary>
+        /// Tab11 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Tab11;
+        
+        /// <summary>
+        /// Tab12 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Tab12;
+        
+        /// <summary>
+        /// MainView control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.MultiView MainView;
+        
+        /// <summary>
+        /// View1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.View View1;
         
         /// <summary>
         /// Table1 control.
@@ -31,22 +148,40 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.Table Table1;
         
         /// <summary>
-        /// TextBox1 control.
+        /// tbHC control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox tbHC;
         
         /// <summary>
-        /// TextBox2 control.
+        /// tbNombres control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox tbNombres;
+        
+        /// <summary>
+        /// tbApePaterno control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tbApePaterno;
+        
+        /// <summary>
+        /// tbApeMaterno control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tbApeMaterno;
         
         /// <summary>
         /// TextBox5 control.
@@ -58,6 +193,15 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.TextBox TextBox5;
         
         /// <summary>
+        /// View2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.View View2;
+        
+        /// <summary>
         /// Table2 control.
         /// </summary>
         /// <remarks>
@@ -67,40 +211,13 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.Table Table2;
         
         /// <summary>
-        /// RadioButton1 control.
+        /// TextBox4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton1;
-        
-        /// <summary>
-        /// RadioButton2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton2;
-        
-        /// <summary>
-        /// RadioButton3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton3;
-        
-        /// <summary>
-        /// RadioButton4 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton4;
+        protected global::System.Web.UI.WebControls.TextBox TextBox4;
         
         /// <summary>
         /// RadioButton5 control.
@@ -184,6 +301,51 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.RadioButton RadioButton12;
         
         /// <summary>
+        /// TRCXV control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TableRow TRCXV;
+        
+        /// <summary>
+        /// TextBox992 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox992;
+        
+        /// <summary>
+        /// RadioButton263 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton263;
+        
+        /// <summary>
+        /// RadioButton264 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton264;
+        
+        /// <summary>
+        /// RadioButton265 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton265;
+        
+        /// <summary>
         /// RadioButton13 control.
         /// </summary>
         /// <remarks>
@@ -236,6 +398,51 @@ namespace AppWebST.Pacientes {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton RadioButton18;
+        
+        /// <summary>
+        /// TVCBN control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TableRow TVCBN;
+        
+        /// <summary>
+        /// RadioButton266 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton266;
+        
+        /// <summary>
+        /// RadioButton267 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton267;
+        
+        /// <summary>
+        /// RadioButton268 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton268;
+        
+        /// <summary>
+        /// RadioButton269 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton269;
         
         /// <summary>
         /// RadioButton19 control.
@@ -301,49 +508,13 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.Table Table5;
         
         /// <summary>
-        /// RadioButton24 control.
+        /// View3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton24;
-        
-        /// <summary>
-        /// RadioButton25 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton25;
-        
-        /// <summary>
-        /// RadioButton26 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton26;
-        
-        /// <summary>
-        /// RadioButton27 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton27;
-        
-        /// <summary>
-        /// RadioButton28 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton28;
+        protected global::System.Web.UI.WebControls.View View3;
         
         /// <summary>
         /// Table7 control.
@@ -400,42 +571,6 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.Table Table6;
         
         /// <summary>
-        /// RadioButton29 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton29;
-        
-        /// <summary>
-        /// RadioButton30 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton30;
-        
-        /// <summary>
-        /// RadioButton31 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton31;
-        
-        /// <summary>
-        /// RadioButton32 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton32;
-        
-        /// <summary>
         /// RadioButton33 control.
         /// </summary>
         /// <remarks>
@@ -452,6 +587,60 @@ namespace AppWebST.Pacientes {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton RadioButton38;
+        
+        /// <summary>
+        /// cb1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox cb1;
+        
+        /// <summary>
+        /// TextBox24 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox24;
+        
+        /// <summary>
+        /// cb2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox cb2;
+        
+        /// <summary>
+        /// TextBox25 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox25;
+        
+        /// <summary>
+        /// cb3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox cb3;
+        
+        /// <summary>
+        /// TextBox26 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox26;
         
         /// <summary>
         /// Table8 control.
@@ -634,60 +823,6 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.Table Table9;
         
         /// <summary>
-        /// RadioButton57 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton57;
-        
-        /// <summary>
-        /// RadioButton58 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton58;
-        
-        /// <summary>
-        /// RadioButton62 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton62;
-        
-        /// <summary>
-        /// RadioButton59 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton59;
-        
-        /// <summary>
-        /// RadioButton60 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton60;
-        
-        /// <summary>
-        /// RadioButton61 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton61;
-        
-        /// <summary>
         /// RadioButton63 control.
         /// </summary>
         /// <remarks>
@@ -742,22 +877,22 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.RadioButton RadioButton68;
         
         /// <summary>
-        /// TextBox4 control.
+        /// TextBox7 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox4;
+        protected global::System.Web.UI.WebControls.TextBox TextBox7;
         
         /// <summary>
-        /// Table10 control.
+        /// View4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Table Table10;
+        protected global::System.Web.UI.WebControls.View View4;
         
         /// <summary>
         /// Table11 control.
@@ -859,6 +994,33 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.RadioButton RadioButton77;
         
         /// <summary>
+        /// THNJU control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TableRow THNJU;
+        
+        /// <summary>
+        /// RadioButton270 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton270;
+        
+        /// <summary>
+        /// RadioButton271 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton271;
+        
+        /// <summary>
         /// RadioButton78 control.
         /// </summary>
         /// <remarks>
@@ -886,13 +1048,58 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.RadioButton RadioButton80;
         
         /// <summary>
-        /// TextBox6 control.
+        /// RadioButton58 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox6;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton58;
+        
+        /// <summary>
+        /// RadioButton62 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton62;
+        
+        /// <summary>
+        /// KISH control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TableRow KISH;
+        
+        /// <summary>
+        /// TextBox29 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox29;
+        
+        /// <summary>
+        /// TextBox8 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox8;
+        
+        /// <summary>
+        /// TextBox9 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox9;
         
         /// <summary>
         /// Table13 control.
@@ -938,6 +1145,15 @@ namespace AppWebST.Pacientes {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton RadioButton86;
+        
+        /// <summary>
+        /// TextBox10 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox10;
         
         /// <summary>
         /// RadioButton83 control.
@@ -1138,6 +1354,15 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.RadioButton RadioButton106;
         
         /// <summary>
+        /// TextBox11 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox11;
+        
+        /// <summary>
         /// Table14 control.
         /// </summary>
         /// <remarks>
@@ -1172,42 +1397,6 @@ namespace AppWebST.Pacientes {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton RadioButton111;
-        
-        /// <summary>
-        /// RadioButton109 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton109;
-        
-        /// <summary>
-        /// RadioButton110 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton110;
-        
-        /// <summary>
-        /// RadioButton114 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton114;
-        
-        /// <summary>
-        /// RadioButton115 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton115;
         
         /// <summary>
         /// RadioButton112 control.
@@ -1246,6 +1435,24 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.RadioButton RadioButton117;
         
         /// <summary>
+        /// TR100 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TableRow TR100;
+        
+        /// <summary>
+        /// TextBox10001 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox10001;
+        
+        /// <summary>
         /// RadioButton118 control.
         /// </summary>
         /// <remarks>
@@ -1282,6 +1489,15 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.RadioButton RadioButton121;
         
         /// <summary>
+        /// TextBox12 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox12;
+        
+        /// <summary>
         /// Table15 control.
         /// </summary>
         /// <remarks>
@@ -1309,40 +1525,22 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.RadioButton RadioButton123;
         
         /// <summary>
-        /// RadioButton125 control.
+        /// UYTS control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton125;
+        protected global::System.Web.UI.WebControls.TableRow UYTS;
         
         /// <summary>
-        /// RadioButton126 control.
+        /// TextBox30 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton126;
-        
-        /// <summary>
-        /// RadioButton127 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton127;
-        
-        /// <summary>
-        /// RadioButton128 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton128;
+        protected global::System.Web.UI.WebControls.TextBox TextBox30;
         
         /// <summary>
         /// RadioButton129 control.
@@ -1471,13 +1669,13 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.RadioButton RadioButton141;
         
         /// <summary>
-        /// TextBox7 control.
+        /// TextBox13 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox7;
+        protected global::System.Web.UI.WebControls.TextBox TextBox13;
         
         /// <summary>
         /// Table16 control.
@@ -1525,6 +1723,15 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.RadioButton RadioButton147;
         
         /// <summary>
+        /// tr1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TableRow tr1;
+        
+        /// <summary>
         /// RadioButton144 control.
         /// </summary>
         /// <remarks>
@@ -1570,13 +1777,13 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.RadioButton RadioButton150;
         
         /// <summary>
-        /// RadioButton151 control.
+        /// tr2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton151;
+        protected global::System.Web.UI.WebControls.TableRow tr2;
         
         /// <summary>
         /// RadioButton152 control.
@@ -1604,15 +1811,6 @@ namespace AppWebST.Pacientes {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton RadioButton154;
-        
-        /// <summary>
-        /// RadioButton157 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton157;
         
         /// <summary>
         /// Table17 control.
@@ -1678,6 +1876,15 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.RadioButton RadioButton159;
         
         /// <summary>
+        /// TR1003 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TableRow TR1003;
+        
+        /// <summary>
         /// RadioButton162 control.
         /// </summary>
         /// <remarks>
@@ -1705,6 +1912,33 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.RadioButton RadioButton164;
         
         /// <summary>
+        /// RadioButton166 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton166;
+        
+        /// <summary>
+        /// TableRow1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TableRow TableRow1;
+        
+        /// <summary>
+        /// RadioButton57 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton57;
+        
+        /// <summary>
         /// RadioButton165 control.
         /// </summary>
         /// <remarks>
@@ -1714,13 +1948,22 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.RadioButton RadioButton165;
         
         /// <summary>
-        /// RadioButton166 control.
+        /// RadioButton151 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton166;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton151;
+        
+        /// <summary>
+        /// RadioButton157 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton157;
         
         /// <summary>
         /// RadioButton167 control.
@@ -1759,24 +2002,6 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.RadioButton RadioButton170;
         
         /// <summary>
-        /// RadioButton171 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton171;
-        
-        /// <summary>
-        /// RadioButton172 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton172;
-        
-        /// <summary>
         /// RadioButton173 control.
         /// </summary>
         /// <remarks>
@@ -1811,6 +2036,33 @@ namespace AppWebST.Pacientes {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton RadioButton176;
+        
+        /// <summary>
+        /// RadioButton261 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton261;
+        
+        /// <summary>
+        /// RadioButton262 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton262;
+        
+        /// <summary>
+        /// TextBox28 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox28;
         
         /// <summary>
         /// Table18 control.
@@ -1966,6 +2218,24 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.RadioButton RadioButton191;
         
         /// <summary>
+        /// TR1002 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TableRow TR1002;
+        
+        /// <summary>
+        /// TextBox15 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox15;
+        
+        /// <summary>
         /// Table20 control.
         /// </summary>
         /// <remarks>
@@ -2038,31 +2308,31 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.RadioButton RadioButton198;
         
         /// <summary>
-        /// RadioButton199 control.
+        /// TextBox16 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton199;
+        protected global::System.Web.UI.WebControls.TextBox TextBox16;
         
         /// <summary>
-        /// RadioButton200 control.
+        /// Table21 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton200;
+        protected global::System.Web.UI.WebControls.Table Table21;
         
         /// <summary>
-        /// RadioButton201 control.
+        /// TextBox17 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton201;
+        protected global::System.Web.UI.WebControls.TextBox TextBox17;
         
         /// <summary>
         /// RadioButton202 control.
@@ -2101,6 +2371,24 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.RadioButton RadioButton205;
         
         /// <summary>
+        /// TRXX control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TableRow TRXX;
+        
+        /// <summary>
+        /// TextBox2700 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox2700;
+        
+        /// <summary>
         /// RadioButton206 control.
         /// </summary>
         /// <remarks>
@@ -2117,6 +2405,15 @@ namespace AppWebST.Pacientes {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton RadioButton207;
+        
+        /// <summary>
+        /// TextBox18 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox18;
         
         /// <summary>
         /// RadioButton208 control.
@@ -2137,13 +2434,22 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.RadioButton RadioButton209;
         
         /// <summary>
-        /// Table21 control.
+        /// View5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Table Table21;
+        protected global::System.Web.UI.WebControls.View View5;
+        
+        /// <summary>
+        /// Table22 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Table Table22;
         
         /// <summary>
         /// RadioButton210 control.
@@ -2180,6 +2486,24 @@ namespace AppWebST.Pacientes {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton RadioButton213;
+        
+        /// <summary>
+        /// RadioButton171 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton171;
+        
+        /// <summary>
+        /// RadioButton172 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton172;
         
         /// <summary>
         /// RadioButton214 control.
@@ -2290,13 +2614,31 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.RadioButton RadioButton225;
         
         /// <summary>
-        /// Table22 control.
+        /// TextBox19 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Table Table22;
+        protected global::System.Web.UI.WebControls.TextBox TextBox19;
+        
+        /// <summary>
+        /// View6 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.View View6;
+        
+        /// <summary>
+        /// Table23 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Table Table23;
         
         /// <summary>
         /// RadioButton226 control.
@@ -2317,13 +2659,22 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.RadioButton RadioButton227;
         
         /// <summary>
-        /// Table23 control.
+        /// View7 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Table Table23;
+        protected global::System.Web.UI.WebControls.View View7;
+        
+        /// <summary>
+        /// Table24 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Table Table24;
         
         /// <summary>
         /// RadioButton228 control.
@@ -2344,13 +2695,40 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.RadioButton RadioButton229;
         
         /// <summary>
-        /// Table24 control.
+        /// TRCCC control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Table Table24;
+        protected global::System.Web.UI.WebControls.TableRow TRCCC;
+        
+        /// <summary>
+        /// TextBox27 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox27;
+        
+        /// <summary>
+        /// View8 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.View View8;
+        
+        /// <summary>
+        /// Table25 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Table Table25;
         
         /// <summary>
         /// RadioButton230 control.
@@ -2407,13 +2785,22 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.RadioButton RadioButton235;
         
         /// <summary>
-        /// Table25 control.
+        /// View9 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Table Table25;
+        protected global::System.Web.UI.WebControls.View View9;
+        
+        /// <summary>
+        /// Table26 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Table Table26;
         
         /// <summary>
         /// RadioButton236 control.
@@ -2524,13 +2911,22 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.RadioButton RadioButton247;
         
         /// <summary>
-        /// Table26 control.
+        /// View10 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Table Table26;
+        protected global::System.Web.UI.WebControls.View View10;
+        
+        /// <summary>
+        /// Table27 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Table Table27;
         
         /// <summary>
         /// RadioButton248 control.
@@ -2632,13 +3028,31 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.RadioButton RadioButton260;
         
         /// <summary>
-        /// Table27 control.
+        /// TextBox20 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Table Table27;
+        protected global::System.Web.UI.WebControls.TextBox TextBox20;
+        
+        /// <summary>
+        /// View11 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.View View11;
+        
+        /// <summary>
+        /// Table28 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Table Table28;
         
         /// <summary>
         /// RadioButton258 control.
@@ -2659,31 +3073,40 @@ namespace AppWebST.Pacientes {
         protected global::System.Web.UI.WebControls.RadioButton RadioButton259;
         
         /// <summary>
-        /// TextBox8 control.
+        /// TextBox21 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox8;
+        protected global::System.Web.UI.WebControls.TextBox TextBox21;
         
         /// <summary>
-        /// RadioButton261 control.
+        /// TextBox22 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton261;
+        protected global::System.Web.UI.WebControls.TextBox TextBox22;
         
         /// <summary>
-        /// RadioButton262 control.
+        /// View12 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton262;
+        protected global::System.Web.UI.WebControls.View View12;
+        
+        /// <summary>
+        /// Table29 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Table Table29;
         
         /// <summary>
         /// Button1 control.

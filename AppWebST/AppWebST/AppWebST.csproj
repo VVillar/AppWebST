@@ -60,13 +60,14 @@
     <Content Include="App_Themes\Theme1\estilos.css" />
     <Content Include="Default.aspx" />
     <Content Include="images\facebookLogo.png" />
+    <Content Include="images\InitialImage.png" />
     <Content Include="images\logoHospitalCayetano.jpg" />
+    <Content Include="images\SelectedButton.png" />
     <Content Include="Pacientes\AdministrarPacientes.aspx" />
     <Content Include="Pacientes\AgregarPaciente.aspx" />
     <Content Include="Pacientes\DatosMadre.aspx" />
     <Content Include="Pacientes\EliminarPaciente.aspx" />
-    <Content Include="Pacientes\Epicrisis.aspx" />
-    <Content Include="Pacientes\VerDatosPaciente.aspx" />
+    <Content Include="Pacientes\Epicrisis2.aspx" />
     <Content Include="Pacientes\VerSeguimientoPaciente.aspx" />
     <Content Include="Reportes\VerReportes.aspx" />
     <Content Include="Usuarios\AgregarUsuario.aspx" />
@@ -110,12 +111,12 @@
     <Compile Include="Pacientes\EliminarPaciente.aspx.designer.cs">
       <DependentUpon>EliminarPaciente.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pacientes\Epicrisis.aspx.cs">
-      <DependentUpon>Epicrisis.aspx</DependentUpon>
+    <Compile Include="Pacientes\Epicrisis2.aspx.cs">
+      <DependentUpon>Epicrisis2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pacientes\Epicrisis.aspx.designer.cs">
-      <DependentUpon>Epicrisis.aspx</DependentUpon>
+    <Compile Include="Pacientes\Epicrisis2.aspx.designer.cs">
+      <DependentUpon>Epicrisis2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pacientes\MPPacientes.master.cs">
       <DependentUpon>MPPacientes.master</DependentUpon>
@@ -123,13 +124,6 @@
     </Compile>
     <Compile Include="Pacientes\MPPacientes.master.designer.cs">
       <DependentUpon>MPPacientes.master</DependentUpon>
-    </Compile>
-    <Compile Include="Pacientes\VerDatosPaciente.aspx.cs">
-      <DependentUpon>VerDatosPaciente.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pacientes\VerDatosPaciente.aspx.designer.cs">
-      <DependentUpon>VerDatosPaciente.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pacientes\VerSeguimientoPaciente.aspx.cs">
       <DependentUpon>VerSeguimientoPaciente.aspx</DependentUpon>
@@ -146,19 +140,19 @@
     <Compile Include="Principal.Master.designer.cs">
       <DependentUpon>Principal.Master</DependentUpon>
     </Compile>
-    <Compile Include="Reportes\MPReportes.master.cs">
-      <DependentUpon>MPReportes.master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Reportes\MPReportes.master.designer.cs">
-      <DependentUpon>MPReportes.master</DependentUpon>
-    </Compile>
     <Compile Include="Reportes\VerReportes.aspx.cs">
       <DependentUpon>VerReportes.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Reportes\VerReportes.aspx.designer.cs">
       <DependentUpon>VerReportes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\MPReportes.master.cs">
+      <DependentUpon>MPReportes.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\MPReportes.master.designer.cs">
+      <DependentUpon>MPReportes.master</DependentUpon>
     </Compile>
     <Compile Include="Usuarios\AgregarUsuario.aspx.cs">
       <DependentUpon>AgregarUsuario.aspx</DependentUpon>

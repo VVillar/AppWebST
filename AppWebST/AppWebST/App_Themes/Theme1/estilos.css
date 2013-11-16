@@ -15,6 +15,11 @@
     margin: auto;
 }
 
+legend
+{
+    text-align: left;
+}
+
 #barraHorizontal
 {
     height: 40px;
@@ -47,7 +52,7 @@
             color: white;
             text-decoration: none;
             font-weight: bold;
-            font-family:Lato;
+            font-family: Lato;
         }
 
 /*Fin de la cabecera*/
@@ -117,7 +122,7 @@
             color: white;
             text-decoration: none;
             font-weight: bold;
-            font-family:Lato;
+            font-family: Lato;
         }
 
 #columnIzq, columnDer
@@ -164,15 +169,16 @@ table
 
 .celda0
 {
-    padding-right:150px;
+    padding-right: 150px;
 }
 
 .celda2
 {
-    padding-right:150px;
-    text-align:left;
+    padding-right: 150px;
+    text-align: left;
 }
+
 .celda
 {
-     text-align:right;
+    text-align: right;
 }
